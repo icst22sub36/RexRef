@@ -13,8 +13,17 @@ Rex Stepper is an advanced online debugger for Javascript regular expressions, a
 
 ## Usage
 
-1. node --experimental-modules --es-module-specifier-resolution=node index.js [file.js] [output_folder]
-2. node --experimental-modules --es-module-specifier-resolution=node [output_folder]/[file_compiled.js]
+1. Compile
+
+```
+node --experimental-modules --es-module-specifier-resolution=node index.js [file.js] [output_folder]
+```
+
+2. Run
+
+```
+node --experimental-modules --es-module-specifier-resolution=node [output_folder]/[file_compiled.js]
+```
 
 ## Testing with Test262 suite
 
